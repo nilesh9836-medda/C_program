@@ -1,4 +1,5 @@
-/* Print 'Hello World' using C program */
+//Program: Print 'Hello World' in C program
+//Author: Nilesh Medda
 
 #include<stdio.h>
 int main(){
