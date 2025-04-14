@@ -1,4 +1,6 @@
-/* Add two numbers from input using C program */
+//Program: Add two numbers in C program.
+//Author: Nilesh Medda
+//Description: Take two numbers from user, add them and print the result.
 
 #include<stdio.h>
 int main(){
