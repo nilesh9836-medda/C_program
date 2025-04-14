@@ -1,4 +1,5 @@
-/* Swap two numbers using third variable */
+// Program: Swap two numbers using third variable in C program.
+// Author: Nilesh Medda
 
 #include<stdio.h>
 int main(){
