@@ -1,4 +1,5 @@
-/* Print the biggest of three number using ternary operator in C program*/
+//Program: Print the biggest of three number using ternary operator in C program
+//Author: Nilesh Medda
 
 #include<stdio.h>
 int main(){
