@@ -1,6 +1,6 @@
 // Program: Check Primary Number in C.
 // Author: Nilesh Medda
-//Description: Take number from user, check the condition to be a primary number and print the result.
+// Description: Take number from user, check the condition to be a primary number and print the result.
 
 #include<stdio.h>
 int main(){
