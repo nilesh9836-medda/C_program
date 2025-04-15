@@ -1,4 +1,6 @@
-/* Check Primary Number in C */
+// Program: Check Primary Number in C.
+// Author: Nilesh Medda
+//Description: Take number from user, check the condition to be a primary number and print the result.
 
 #include<stdio.h>
 int main(){
@@ -12,9 +14,9 @@ int main(){
 	}
 	
 	if(count>0)
-		printf("%d is a Primary Number!\n",num);
-	else
 		printf("%d is not a Primary Number\n",num);
+	else
+		printf("%d is a Primary Number!\n",num);
 		
 	return 0;
 }
