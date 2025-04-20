@@ -1,0 +1,26 @@
+name: C Build Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v3
+
+      - name: 🧰 Install GCC
+        run: sudo apt update && sudo apt install -y build-essential
+
+      - name: 🏗️ Compile C Code
+        run: |
+          mkdir -p build
+          gcc *.c -o build/output
+
+      - name: ✅ Run Compiled Program (Optional)
+        run: ./build/output
